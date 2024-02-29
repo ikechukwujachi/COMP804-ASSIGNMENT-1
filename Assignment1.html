@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title> ASSESSMENT TASK 3 – ASSIGNMENT 1 </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5C63C;
+        }
+
+        .task1_container {
+            margin: 25px;
+            padding: 25px;
+            max-width: 700px;
+            background-color: #faf6ae;
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin: 10px 0;
+            color: #5344A9;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 10px 0;
+            color: #F47F6B;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+            border: 5px solid grey;
+            border-radius: 5px;
+            font-family: "Monaco", monospace;
+            color: darkgray;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 5px solid grey;
+            text-align: left;
+        }
+
+        th {
+            background-color: #5344A9;
+            color: #fff;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #f9f9f9;
+            font-family: "Lucida Console", monospace;
+            color: #BB5098;
+        }
+
+        .task2-container {
+            background-color: #faf6ae;
+            max-width: 1000px;
+            padding: 25px;
+            margin: 25px;
+        }
+
+        table a {
+            color: #5344A9;
+            transition: color 0.1s;
+        }
+
+        table a:hover {
+            color: tomato;
+        }
+
+        .task3-container {
+            background-color: #faf6ae;
+            max-width: 1200px;
+            padding: 25px;
+            margin: 25px; /* create spacing */
+        }
+
+        .task3-container a {
+            text-decoration: none;
+        }
+
+       .task4-container {
+            text-align: center; /* Centre */
+            margin: 20px; 
+        }
+
+        .task4-container button {
+            margin: 10px;
+            padding: 20px;
+            font-size: 18px;
+            cursor: pointer; /* change cursor to pointer */
+        }
+
+        .message-container {
+            margin: 10px;
+            text-align: center; /* Centre */
+        }
+
+        .message-container p {
+            margin: 10px;
+            font-size: 18px;
+        }
+
+        #message img {
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;  /* Centre image */
+        }
+    </style>
+</head>
+<body>
+    <div class="task1_container">
+            <h2>Student ID: 8851244</h2>
+            <h2>Full Name: Ikechukwu Chukwueke</h2>
+            <h2>COMP804: Web Development</h2>
+            <h2>Assignment 1, Due Date: Monday 4 March 2024</h2>
+</div>
+        <div class="task2-container">
+            <h1>Web Security Assessment Tasks</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Assessment Task</th>
+                        <th>Due Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Assessment 1 - Random Quiz 1 - 5%
+                            <ul>
+                                <li> Week 1: HTML</li>
+                            </ul>
+                                <p><a href="https://www.w3schools.com/html/">Learn more about HTML at W3Schools</p>
+                        </td>
+                        <td>Monday, 05 Feb 2024 </td>
+                    </tr>
+                    <tr>
+                        <td>Assessment 2 - Exercise 1 - 5%</td>
+                        <td>Monday, 12 Feb 2024 </td>
+                    </tr>
+                    <tr>
+                        <td>Assessment 1 - Random Quiz 2 - 5%</td>
+                        <td>Monday, 19 Feb 2024 </td>
+                    </tr>
+                    <tr>
+                        <td>Assessment 2 - Exercise 2 - 5%
+                        <ul>
+                                <li> Week 3: GIT</li>
+                            </ul>
+                                <p><a href="https://git-scm.com/video/what-is-git">What is GIT</p>
+                        </td>
+                        <td>Monday, 26 Feb 2024 </td>
+                    </tr>
+                    <tr>
+                        <td>Assessment 1 - Random Quiz 3 - 5%
+                            <ul>
+                                <li> Week 5: XML, DTD, and XSLT</li>
+                            </ul>
+                                <p><a href="https://github.com/zurfyx/XML-in-10-minutes">Learn basics of XML DTD XSD XSL</p>
+                        </td>
+                        <td>Monday, 04 Mar 2024 </td>
+                    </tr>
+                      <tr>
+                        <td>Assessment 3 - Programming Assignment - 20%</td>
+                        <td>Monday, 04 Mar 2024 </td>
+                    </tr>
+                    <tr>
+                        <td>Assessment 2 - Exercise 3 - 5%</td>
+                        <td>Monday, 11 Mar 2024 </td>
+                    </tr>
+                    <tr>
+                        <td>Assessment 1 - Random Quiz 4 - 5%</td>
+                        <td>Monday, 18 Mar 2024 </td>
+                    </tr>
+                    <tr>
+                        <td>Assessment 2 - Exercise 4 - 5%</td>
+                        <td>Monday, 25 Mar 2024 </td>
+                    </tr>
+                    <tr>
+                        <td>Assessment 4 - Code and Report - 40%</td>
+                        <td>Sunday, 07 Apr 2024 </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+            <div class="task3-container">
+    <h1>Web Attacks Information</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Web Attacks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>XSS (Cross-Site Scripting)<img src="xss.png" alt="XSS Scripting" width="300"></td>
+                <td>
+                    XSS involves injecting malicious executable scripts into trusted applications or websites. Attackers typically initiate an XSS attack by sending malicious links to users, enticing them to click. Without proper data sanitisation, these links execute the attacker's code on the user's system, allowing them to steal active session cookies.
+                    <br>
+                    <a href="https://www.synopsys.com/glossary/what-is-cross-site-scripting.html">Source - https://www.synopsys.com/glossary/what-is-cross-site-scripting.html</a>
+                </td>
+            </tr>
+            <tr>
+                <td>SQL Injection<img src="sql.png" alt="SQL Injection" width="300"></td>
+                <td>
+                    SQL Injection is one of the most common web attacks, that has the ability to destroy a database. SQL Injection is when an attacker inserts malicious code in SQL statements/queries via webpage input fields. Exploiting any vulnerabilities, in order to manipulate the database.
+                    <br>
+                    <a href="https://www.w3schools.com/sql/sql_injection.asp">Source - https://www.w3schools.com/sql/sql_injection.asp</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Clickjacking<img src="clickjacking.png" alt="Clickjacking" width="300"></td>
+                <td>
+                    Also known as s "UI redress attack", Clickjacking is when an attacker uses multiple transparent/disguised elements (buttons and links) on a page to "trick" users. Thus, the attacker "hijacks" clicks, leading them to unintended actions such as making unauthorised transactions or revealing sensitive information.
+                    <br>
+                    <a href="https://owasp.org/www-community/attacks/Clickjacking">Source - https://owasp.org/www-community/attacks/Clickjacking</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Phishing<img src="phishing.png" alt="" width="300"></td>
+                <td>
+                    Phsising is an attempt to steal sensitive information. Attackers typically "phis" for usernames, passwords and credit card information, that is utilised or sold. The attackers pose as a reputable source, enticing users. Similarly, to fishermen using bait to catch fish. 
+                    <br>
+                    <a href="https://www.cloudflare.com/learning/access-management/phishing-attack/">Source - https://www.cloudflare.com/learning/access-management/phishing-attack/</a>
+                </td>
+            </tr>
+               <tr>
+                <td>Brute Force Attack<img src="bruteforce.png" alt="" width="300"></td>
+                <td>
+                    A brute force attack is a hacking technique where the hacker repeatedly tries different combinations of passwords, usernames, or encryption keys until they find the right one. This method, though basic, is quite effective for breaking into individual accounts or the systems and networks of organisations without permission.
+                    <br>
+                    <a href="https://www.fortinet.com/resources/cyberglossary/brute-force-attack">Source - https://www.fortinet.com/resources/cyberglossary/brute-force-attack</a>
+                </td>
+            </tr>
+               <tr>
+                <td>Session Hijacking<img src="session.png" alt="" width="300"></td>
+                <td>
+                    Session Hijacking is a cyber attack where the attacker takes over an users active session on a website, application or network services. They do this, by interceptiing or stealing the session identifier, the attacker can impersonate the user and gain access to an account or system. Allowing the attacker to perfom actions on the users behalf.
+                    <br>
+                    <a href="https://owasp.org/www-community/attacks/Session_hijacking_attack">Source - https://owasp.org/www-community/attacks/Session_hijacking_attack</a>
+                </td>
+            </tr>
+               <tr>
+                <td>DNS Spoofing<img src="DNSspoof.png" alt="" width="300"></td>
+                <td>
+                    DNS spoofing is when a hacker messes with a DNS server to send users to a fake website they control. This sneaky trick can happen on public Wi-Fi or anywhere the hacker can mess with the network settings to redirect users to their malicious site, putting users at risk of scams or data theft.
+                    <br>
+                    <a href="https://www.proofpoint.com/au/threat-reference/dns-spoofing">Source - https://www.proofpoint.com/au/threat-reference/dns-spoofing</a>
+                </td>
+            </tr>
+               <tr>
+                <td>Remote Code Execution (RCE)<img src="RCE.png" alt="" width="300"></td>
+                <td>
+                    A remote code execution (RCE) assault occurs when an adversary gains the capability to execute harmful code on a target organisation's computers or network. This capability allows the attacker to perform various nefarious activities, such as deploying supplementary malware or pilfering sensitive data.
+                    <br>
+                    <a href="https://www.cloudflare.com/learning/security/what-is-remote-code-execution/">Source - https://www.cloudflare.com/learning/security/what-is-remote-code-execution/</a>
+                </td>
+            </tr>
+               <tr>
+                <td>Drive-by Download Attack<img src="drivebydownload.png" alt="" width="300"></td>
+                <td>
+                    A drive-by download attack occurs when malicious code is inadvertently downloaded to your computer or mobile device, making you vulnerable to cyberattacks. Unlike traditional infection methods, such as clicking on links or opening malicious attachments, drive-by downloads require no user interaction like clicking or downloading. These attacks exploit security vulnerabilities in applications, operating systems, or web browsers, often due to outdated or incomplete updates.
+                    <br>
+                    <a href="https://www.kaspersky.com/resource-center/definitions/drive-by-download">Source - https://www.kaspersky.com/resource-center/definitions/drive-by-download</a>
+                </td>
+            </tr>
+               <tr>
+                <td>Man-In-The-Middle (MITM)<img src="mitm.png" alt="" width="300"></td>
+                <td>
+                    A man-in-the-middle (MITM) attack occurs when an attacker intercepts communication between a user and an application, aiming to eavesdrop or impersonate one of the parties. The goal is to steal personal information such as login credentials and credit card details, with targets often including users of financial apps, e-commerce sites, and platforms requiring authentication.
+                    <br>
+                    <a href="https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/">Source - https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+        <div class="task4-container">
+        <button id="w3schoolsBtn">W3Schools</button>
+        <button id="githubBtn">GitHub</button>
+        <button id="javascriptBtn">JavaScript</button>
+    </div>
+    <div class="message-container">
+        <input type="text" id="textField" placeholder="Hit the Button!" readonly>
+        <p id="clickedTextField"></p>
+    </div>
+    <div class="message-container" id="message"></div>
+
+    <script>
+        // Get references to elements
+        const w3schoolsBtn = document.getElementById('w3schoolsBtn');
+        const githubBtn = document.getElementById('githubBtn');
+        const javascriptBtn = document.getElementById('javascriptBtn');
+        const textField = document.getElementById('textField');
+        const clickedTextField = document.getElementById('clickedTextField');
+        const messageDiv = document.getElementById('message');
+
+        // Attach event listeners to buttons
+        w3schoolsBtn.addEventListener('click', () => handleButtonClick('W3Schools'));
+        githubBtn.addEventListener('click', () => handleButtonClick('GitHub'));
+        javascriptBtn.addEventListener('click', () => handleButtonClick('JavaScript'));
+
+        // Function to handle button clicks
+        function handleButtonClick(site) {
+            // Highlight the clicked button
+            highlightButton(site);
+            // Display message
+            displayMessage("User clicks " + site);
+            // Display "Site is clicked" or similar message
+            displayClickedMessage(site + " is clicked");
+            // Display image
+            displayImage(site.toLowerCase() + ".png");
+        }
+
+        // Function to highlight the clicked button
+        function highlightButton(site) {
+            // Remove highlight from all buttons
+            const buttons = document.querySelectorAll('.task4-container button');
+            buttons.forEach(button => {
+                button.style.backgroundColor = '';
+            });
+            // Highlight the clicked button
+            document.getElementById(site.toLowerCase() + 'Btn').style.backgroundColor = 'lightgreen';
+        }
+
+        // Function to display a message
+        function displayMessage(msg) {
+            textField.value = msg;
+        }
+
+        // Function to display "Site is clicked" or similar message
+        function displayClickedMessage(msg) {
+            clickedTextField.textContent = msg;
+        }
+
+        // Function to display an image
+        function displayImage(src) {
+            messageDiv.innerHTML = `<img src="${src}" alt="Image">`;
+        }
+    </script>
+</body>
+</html>
